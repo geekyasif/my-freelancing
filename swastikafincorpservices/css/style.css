@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 700;
+}
+
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* home services card section  */
+.home-services-card{
+    height: 300px;
+}
+/* home services card section  */
+
+.carousel-item img{
+    /* height: 600px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.carousel-item h1{
+    color: black;
+    font-size: 50px;
+}
+.carousel-item p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.read-more-container li{
+    line-height: 30px;
+}
+
+.card{
+    padding: 40px 0px;
+    box-shadow: 0px 0px 40px 0px rgb(36 42 86 / 15%);
+}
+
+.card i {
+    font-size: 80px;
+    margin-bottom: 20px;    
+}
+
+
+
+
+
+.contact-card{
+    width: 100%;
+    /* height: 400px; */
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-card h3{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contact-card i{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
+/* about section  */
+
+.about-container{
+    background-image: url("/img/service.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.about-card{
+    height: 420px;
+}
+
+.card-body h3{
+ font-weight: 700;
+}
+
+.card-body p{
+    color: gray;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+   
+
+/* about section  */
+
+
+
+.services-container{
+    background-image: url("/img/services.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
+
+.services-card{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.read-more-container{
+    background-image: url("/img/bg5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact-container{
+    background-image: url("/img/contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    height: 200px;
+
+}
+
+.contact-background-color{
+
+    background-color: rgba(0,0,0,0.6);
+    height: 200px;
+    
+}
+ 
+.contact-card{
+    height: 500px;
+}
+
+input, textarea{
+    margin-bottom: 30px;
+}
+
+.background-color{
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+
+
+
+
+/* footer section  */
+/* footer section  */
+/* footer section  */
+/* footer section  */
+
+.top-footer{
+    background-color: #212529;
+    color: white;
+}
+
+.footer-ul{
+    padding: 0px;
+}
+
+.footer-li{
+    list-style: none;
+    
+}
+
+.footer-li a{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+    line-height: 30px;
+}
+
+.footer-li a:hover{
+    color:white;
+}
+
+.get-in-touch a{
+    text-decoration: none;
+    line-height: 30px;
+    color: rgba(255,255,255,.55);
+}
+
+
+.get-in-touch a:hover{
+    color: white;
+}
+
+.footer-brand-info p{
+    color: rgba(255,255,255,.55);
+    line-height: 30px;
+}
+
+.get-in-touch, .quick-links{
+    padding-bottom: 20px;
+}
+
+/* bottom footer  */
+/* bottom footer  */
+/* bottom footer  */
+
+.bottom-footer{
+    background-color: black;
+}
+.bottom-footer a{
+    text-decoration: none;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.bottom-footer p{
+    color: white;
+    font-size: 17px;
+}

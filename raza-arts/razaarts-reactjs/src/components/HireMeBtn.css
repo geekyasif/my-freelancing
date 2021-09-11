@@ -1,0 +1,20 @@
+.hire-me-btn-container{
+    margin-top: 1.5rem;
+}
+
+.hire-me-btn{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #FFEB3C;
+    border-radius: 50px;
+    color: black;
+    font-weight: 700;
+    margin-left: 8px;
+    font-size: 1.3rem;
+}
+
+
+.hire-me-btn:hover{
+    background-color: #F4D03F;
+    transition: all 0.5s;
+}

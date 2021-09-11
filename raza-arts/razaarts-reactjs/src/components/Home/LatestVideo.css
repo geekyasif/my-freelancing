@@ -1,0 +1,47 @@
+.latest-video-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.latest-videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.yt-card-contianer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.latest-video-yt-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.latest-video-yt-btn-container > a{
+    background-color: #FF0000;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+
+.latest-video-yt-btn-container a:hover{
+    background-color: #E21717;
+    transition: all 0.5s;
+
+}
+
+.fa-youtube{
+    margin-right: 10px;
+}

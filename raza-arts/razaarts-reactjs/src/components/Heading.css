@@ -1,0 +1,22 @@
+.heading-container{
+ display: flex;
+ justify-content: center;
+}
+
+.heading-title{
+    /* display: block; */
+    color: #FFEB3C;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.heading-title::after{
+    /* width: 4px; */
+    display: block;
+    content: '';
+    background-color: #FFEB3C;
+    width: 100%;
+    height: 4px;
+    margin-top: 3px;
+
+}

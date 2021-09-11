@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* shared */
+
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin:auto;
+ 
+}
+
+/* navbar */
+.navbar-container{
+    background-color: blueviolet;
+    color: white;
+    line-height: 10px;
+}
+.navbar{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand-title{
+    font-size: 30px;
+}
+
+
+.nav-ul{
+    display: flex;
+}
+.nav-list{
+    list-style: none;
+    padding: 10px;
+    
+}
+.nav-list:hover{
+    background-color: black;
+}
+
+.hire-me-btn{
+    background-color:cornflowerblue;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    /* border: none; */
+}
+
+
+/* intro-container */
+.intro-main-container{
+    
+}
+
+
+.intro-container{
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.intro{
+    align-self:center
+}
+
+.intro-title{
+    font-size: 50px;
+}
+.intro-bio{
+    font-size: 20px;
+}
+.logo-image{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.social-icon-list{
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+.services-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.draw-my-portrait-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.price-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.price-card{
+    background-color: #2C3E50;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.price-card > img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.price-card-text-container{
+    padding: 15px;
+}
+
+.price-card-text-container > p{
+    line-height: 30px;
+    color: white;
+}
+
+.category-text{
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFEB3C;
+}
+

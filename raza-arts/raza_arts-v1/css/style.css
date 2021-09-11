@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  body::after {
+    content: "";
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size: 2rem;
+}
+.navbar-dark .navbar-brand:hover{
+    color: #3498DB;
+
+}
+
+.navbar-nav a{
+        display: block;
+        padding: 5px;
+        border-radius: 30px;
+        border: 1px solid #3498DB;
+        margin: 0px 9px;
+  }
+
+.navbar-nav a:hover{
+      /* border: 3px solid #3498DB; */
+      background-color: #3498DB;
+      color: black;
+}
+
+  .intro{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 230px 0px;
+  }
+ 
+.intro h3{
+    font-size: 4rem;
+}
+
+.intro h5{
+    font-size: 1.5rem;
+}
+.img-section {
+    margin: 100px 0px
+}
+.img-section p{
+    color: white;
+    font-size: 21px;
+    font-style: italic;
+}
+
+.img-section img{
+    width: 500px;
+}
+
+.get-started{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.get-started a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: 1px solid #3498DB;
+    border-radius: 20px
+}
+.get-started a:hover{
+    background-color:#3498DB;
+    color: white;
+}
+
+.hire-me{
+    border: 1px solid #3498DB;
+    color: white;
+}
+.hire-me:hover{
+    background-color:#3498DB;
+    color: white;
+}
+
+.social-icons{
+    margin: 15px 0px;
+    align-items: center;
+ 
+}
+
+.social-icons a{
+    /* text-align: center; */
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    margin: 0px 9px;
+    border-radius: 20px;
+
+}
+
+.social-icons a:hover{
+    background-color: #3498DB;
+    color: white;
+}
+
+.videos-heading{
+    text-align: center;
+    color: white;
+    margin: 20px 0px;
+}
+
+.hr{
+    background: #3498DB;
+    width: 13%;
+    padding: 1px 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-img-gallery{
+    margin: 30px 0px;
+}
+
+.main-video-gallery{
+    margin: 30px 0px;
+}
+
+.gallery-img-section{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.galler-img{
+    width: 230px;
+    height: 300px;
+    margin: 20px;
+    transition: transform, 450ms;
+}
+
+.galler-img:hover{
+    transform: scale(1.08);
+    opacity: 0.5;
+}
+
+
+  
+
+
+
+/* responsive */
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .intro {
+        color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 105px 0px;
+    }
+   
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,.5);
+        padding: 11px 19px;
+        margin: 9px;
+    }  
+    .intro h3 {
+        font-size: 3rem;
+    }
+
+    .img-section p {
+        color: white;
+        font-size: 21px;
+        font-style: italic;
+        text-align: center;
+    }
+
+    .img-section img {
+        width: 360px;
+    }
+
+    .img-section {
+        margin:0px;
+    }
+
+    /* videos section */
+    .hr {
+        background: #3498DB;
+        width: 38%;
+        padding: 1px 0px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+
+ }
+
+ .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+.gallery-img-section{
+margin: 10px 50px;
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

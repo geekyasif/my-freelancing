@@ -1,0 +1,12 @@
+.image{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-in 0.5s;
+    
+}
+
+.image:hover{
+    transform: scale(1.1);
+}

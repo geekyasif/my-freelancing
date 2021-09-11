@@ -1,0 +1,31 @@
+
+.social-icons-container{
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.social-icons-container > a{
+    margin-right: 40px;
+    padding: 8px;
+    border-radius: 25px;
+    transition: all ease-in 0.3s;
+    
+}
+
+.social-icons-container > a:hover{
+    background-color: #FFEB3C;
+  
+}
+
+.social-icons-btn{
+        color: white;
+}
+
+.social-icons-btn:hover{
+    /* background-color: #FFEB3C; */
+    /* border-radius: 30px; */
+    color: black;
+    
+}

@@ -1,0 +1,59 @@
+.footer-container{
+    background-color: #212E3B;
+    /*  */
+    /* border-top: 1px solid #2C3E50; */
+    padding-top: 100px;
+}
+.footer-brand-logo-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+.footer-brand-logo-container > img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.footer-brand-logo-container > h1{
+    font-size: 4rem;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-contact-us{
+    display: flex;
+    justify-content:space-evenly ;
+    /* padding: 5rem; */
+    margin-top: 2rem;
+}
+
+.footer-round-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.footer-rounded-card{
+    border-radius: 60%;
+    text-align: center;
+    background-color: #2C3E50;
+    padding: 40px;
+}
+
+.footer-round-card-container > p{
+    color: white;
+    margin-top: 1rem;
+}
+
+.bottom-footer{
+    height: 40px;
+    background-color: #17202A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}

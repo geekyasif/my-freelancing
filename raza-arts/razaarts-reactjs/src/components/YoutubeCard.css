@@ -1,0 +1,17 @@
+.youtube-card{
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #2C3E50;
+    text-align: center;
+}
+
+.youtube-card > h2{
+    font-size: 3rem;
+    color:#FFEB3C;
+}
+
+.youtube-card > p{
+    font-size: 1.2rem;
+    color: white;
+}

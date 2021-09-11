@@ -1,0 +1,16 @@
+.sub-heading{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
